@@ -18,12 +18,9 @@
 
 <div class="container mt-5">
   <div class="row">
-    <?php foreach($posts as $post): ?>
-    <div class="col-sm-4">
+    <div class="col-sm-12">
       <?php echo $post; ?>
-      <a href="{{ url('posts/') }}" class="text-dark">Go To Full Page</a>
-      <br><br>
+      <a href="{{ url('posts/') }}">Go To Full Page</a>
     </div>
-    <?php endforeach; ?>
   </div>
 </div>
